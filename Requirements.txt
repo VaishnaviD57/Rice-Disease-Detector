@@ -1,0 +1,31 @@
+# Core
+numpy
+pandas
+matplotlib
+seaborn
+
+# Deep Learning (PyTorch)
+torch
+torchvision
+torchaudio
+
+# Image Processing
+opencv-python
+Pillow
+
+# Model Utilities
+scikit-learn
+tqdm
+
+# Deployment
+streamlit
+
+# Optional (if using pretrained models from timm)
+timm
+
+# For saving/loading models
+joblib
+
+# If using Jupyter
+notebook
+ipykernel
