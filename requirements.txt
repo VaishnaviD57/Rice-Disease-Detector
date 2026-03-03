@@ -1,5 +1,5 @@
-streamlit
-numpy
+streamlit==1.54.0
+numpy==1.26.4
 Pillow
 scikit-learn
 opencv-python-headless
