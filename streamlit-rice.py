@@ -44,7 +44,7 @@ class RiceCNN(nn.Module):
         return x
 
 model = RiceCNN().to(device)
-model.load_state_dict(torch.load("rice_model2.pth", map_location=device))
+model.load_state_dict(torch.load("rice_model.pth", map_location=device))
 model.eval()
 
 classes = [
@@ -93,4 +93,5 @@ if uploaded_file is not None:
 
     st.write("All Class Probabilities")
     for i, cls in enumerate(classes):
+
         st.write(f"{cls}: {probs[0][i].item()*100:.2f}%")
